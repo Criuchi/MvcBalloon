@@ -119,3 +119,9 @@ Forgot to modify the rating contents for .cshtml files such as Delete, Details a
 
 6:09
 Tested the validations and they are working properly.Moving to the next step...
+
+7:52
+With everything finished and working, I made some styling to the website and created an img folder to store images...
+
+7:53
+With this work in progress, I have decided to give the last final touches and continue with a few more details tomorrow...
