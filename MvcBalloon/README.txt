@@ -6,12 +6,14 @@
 
 //          IMPORTANT           //
 
-//I have worked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
+// I have worked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this project began before.
 
-//Commented the "sslPort": 44320 located in Properties/launchSettings.json to be able to run the program and see it
+// Commented the "sslPort": 44320 located in Properties/launchSettings.json to be able to run the program and see it
 
 
 //            LOG              //
+
+- 2023-10-12
 
 1:18 
 Created the MvcBallon project and created a README.txt file...
@@ -109,3 +111,8 @@ Modified SeedData.cs to give a rating to every product...
 5:32
 Opened the Package Manager Console to realize the migration for Rating and the update to the database.Everything worked correctly...
 
+5:53
+Started to add validations to each element insode the Balloons Class to make sure they meet specific criteria...
+
+6:00
+Forgot to modify the rating contents for .cshtml files such as Delete, Details and Edit.Everything is working properly now after running the program...
