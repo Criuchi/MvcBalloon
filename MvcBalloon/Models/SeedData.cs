@@ -29,7 +29,8 @@ namespace MvcBalloon.Models
                           Color= "Blue",
                           Size= "12 inches",
                           Theme = "Happy Birthday",
-                          Price = 2.99M
+                          Price = 2.99M,
+                          Rating = 4
                     },
 
                     new Balloon
@@ -38,7 +39,8 @@ namespace MvcBalloon.Models
                         Color = "Gold",
                         Size = "18 inches",
                         Theme = "Congratulations Graduate",
-                        Price = 3.49M
+                        Price = 3.49M,
+                        Rating = 5
                     },
 
                     new Balloon
@@ -47,7 +49,8 @@ namespace MvcBalloon.Models
                         Color = "Red",
                         Size = "10 inches",
                         Theme = "Love Hearts",
-                        Price = 1.99M
+                        Price = 1.99M,
+                        Rating = 3
                     },
 
                     new Balloon
@@ -56,7 +59,8 @@ namespace MvcBalloon.Models
                         Color = "Pink",
                         Size = "16 inches",
                         Theme = "It's a Girl!",
-                        Price = 2.79M
+                        Price = 2.79M,
+                        Rating = 4
                     },
 
                     new Balloon
@@ -65,7 +69,8 @@ namespace MvcBalloon.Models
                         Color = "Orange",
                         Size = "14 inches",
                         Theme = "Spooky Ghosts",
-                        Price = 2.29M
+                        Price = 2.29M,
+                        Rating = 5
                     },
 
                     new Balloon
@@ -74,7 +79,8 @@ namespace MvcBalloon.Models
                         Color = "Silver",
                         Size = "12 inches",
                         Theme = "Celebrating Love",
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Rating = 5
                     },
 
                     new Balloon
@@ -83,7 +89,8 @@ namespace MvcBalloon.Models
                         Color = "Green",
                         Size = "10 inches",
                         Theme = "Festive Reindeer",
-                        Price = 2.49M
+                        Price = 2.49M,
+                        Rating = 4
                     },
 
                     new Balloon
@@ -92,7 +99,8 @@ namespace MvcBalloon.Models
                         Color = "Purple, Green, Gold",
                         Size = "14 inches",
                         Theme = "Carnival Masks",
-                        Price = 2.99M
+                        Price = 2.99M,
+                        Rating = 2
                     },
 
                     new Balloon
@@ -101,7 +109,8 @@ namespace MvcBalloon.Models
                         Color = "Various",
                         Size = "9 inches",
                         Theme = "Soccer Balls",
-                        Price = 1.79M
+                        Price = 1.79M,
+                        Rating = 5
                     },
 
                     new Balloon
@@ -110,7 +119,8 @@ namespace MvcBalloon.Models
                         Color = "Bright Yellow",
                         Size = "16 inches",
                         Theme = "Get Well Wishes",
-                        Price = 2.59M
+                        Price = 2.59M,
+                        Rating = 1
                     }
                 );
                 context.SaveChanges();

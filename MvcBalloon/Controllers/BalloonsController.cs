@@ -95,7 +95,7 @@ namespace MvcBalloon.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Color,Size,Theme,Price")] Balloon balloon)
+        public async Task<IActionResult> Create([Bind("Id,Name,Color,Size,Theme,Price,Rating")] Balloon balloon)
         {
             if (ModelState.IsValid)
             {
@@ -127,7 +127,7 @@ namespace MvcBalloon.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Color,Size,Theme,Price")] Balloon balloon)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Color,Size,Theme,Price,Rating")] Balloon balloon)
         {
             if (id != balloon.Id)
             {
