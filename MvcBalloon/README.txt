@@ -33,5 +33,9 @@ Program works properly, moving to the next step...
 1:39
 Modified the index in HelloWorldController.cs to get everything ready to create a new View...
 
+1:42
+Created a new View item named index.cshtml and modified it's content...
+
+
 
 
