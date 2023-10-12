@@ -105,3 +105,7 @@ Modified the .cshtml files in which the Rating field would appear with the respe
 
 5:20
 Modified SeedData.cs to give a rating to every product...
+
+5:32
+Opened the Package Manager Console to realize the migration for Rating and the update to the database.Everything worked correctly...
+
