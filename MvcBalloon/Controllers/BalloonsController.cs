@@ -20,21 +20,53 @@ namespace MvcBalloon.Controllers
         }
 
         // GET: Balloons
+
         // Modified to create a Search Bar
-        public async Task<IActionResult> Index(string searchString)
+        //public async Task<IActionResult> Index(string searchString)
+        //{
+        //    var balloons = from b in _context.Balloon
+        //                 select b;
+
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        balloons = balloons.Where(s => s.Name.Contains(searchString));
+        //    }
+
+        //    return View(await balloons.ToListAsync());
+        //}
+
+        // GET: Balloons/Details/5
+
+        //Modifying the nindex method to create a search bar and a select list 
+        public async Task<IActionResult> Index(string balloonSize, string searchString)
         {
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from b in _context.Balloon
+                                            orderby b.Size
+                                            select b.Size;
+
             var balloons = from b in _context.Balloon
                          select b;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
                 balloons = balloons.Where(s => s.Name.Contains(searchString));
             }
 
-            return View(await balloons.ToListAsync());
+            if (!string.IsNullOrEmpty(balloonSize))
+            {
+                balloons = balloons.Where(x => x.Size == balloonSize);
+            }
+
+            var balloonSizeVM = new BalloonSizeViewModel
+            {
+                Size = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Balloons = await balloons.ToListAsync()
+            };
+
+            return View(balloonSizeVM);
         }
 
-        // GET: Balloons/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)

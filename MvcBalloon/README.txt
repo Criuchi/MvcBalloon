@@ -93,3 +93,7 @@ Ran the code to test it out and it works. Now I will proceed with change it it b
 
 4:33
 Created the search bar using a form and now I will run the program to see if works...
+
+5:07
+Created the BalloonSizeViewModel.cs Class to make a select list for the Size, this proccess involved the modification of BalloonsController.cs and Index.cshtml files. Now I will run the program to see if it works...
+
