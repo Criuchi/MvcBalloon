@@ -10,4 +10,6 @@
 Created the MvcBallon project and created a README.txt file...
 
 1:18
+Created a Github repository and connected it to the project...
+
 
