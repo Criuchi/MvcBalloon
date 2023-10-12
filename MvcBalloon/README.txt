@@ -36,6 +36,10 @@ Modified the index in HelloWorldController.cs to get everything ready to create 
 1:42
 Created a new View item named index.cshtml and modified it's content...
 
+2:07
+Finished index.cshtml and created Welcome.cshtml while modifying it's content to make the view work...
 
+2:09
+Created a new model named Baloon.cs and added the necessary elements for each field on the table...
 
 
