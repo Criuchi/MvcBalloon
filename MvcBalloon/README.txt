@@ -4,6 +4,9 @@
 // Date Created: 2023-10-10 1230 
 // Date Finished: 2023-10-
 
+
+//IMPORTANT: I have woeked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
+
 // Log:
 
 1:18 
@@ -17,5 +20,11 @@ Commented the sslPort field in the launchSettings.json to run the program...
 
 1:21
 Ran the program to make sure it works...
+
+1:27
+Created a controller for HelloWorld and updated it's content...
+
+1:28
+Testing the program to see if everything works...
 
 
