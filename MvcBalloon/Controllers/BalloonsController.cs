@@ -21,14 +21,14 @@ namespace MvcBalloon.Controllers
 
         // GET: Balloons
         // Modified to create a Search Bar
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string id)
         {
             var balloons = from b in _context.Balloon
                          select b;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(id))
             {
-                balloons = balloons.Where(s => s.Name.Contains(searchString));
+                balloons = balloons.Where(s => s.Name.Contains(id));
             }
 
             return View(await balloons.ToListAsync());
