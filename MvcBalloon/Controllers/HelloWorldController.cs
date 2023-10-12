@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text.Encodings.Web;
 
+//Creation of HelloWorld 
 namespace MvcBalloon.Controllers
 {
     public class HelloWorldController : Controller
@@ -19,9 +21,9 @@ namespace MvcBalloon.Controllers
         // 
         // GET: /HelloWorld/Welcome/ 
 
-        public string Welcome()
+        public string Welcome(string name, int numTimes = 1)
         {
-            return "This is the Welcome action method...";
+            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
         }
     }
 }
