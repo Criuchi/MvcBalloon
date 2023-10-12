@@ -116,3 +116,6 @@ Started to add validations to each element insode the Balloons Class to make sur
 
 6:00
 Forgot to modify the rating contents for .cshtml files such as Delete, Details and Edit.Everything is working properly now after running the program...
+
+6:09
+Tested the validations and they are working properly.Moving to the next step...
