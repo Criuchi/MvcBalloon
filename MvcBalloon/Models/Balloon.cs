@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcBalloon.Models
 {
@@ -16,6 +17,8 @@ namespace MvcBalloon.Models
         //public DateTime ReleaseDate { get; set; }
         public string Size { get; set; }
         public string Theme { get; set; }
+
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
 
     }

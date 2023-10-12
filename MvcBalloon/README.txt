@@ -5,7 +5,7 @@
 // Date Finished: 2023-10-
 
 
-//IMPORTANT: I have woeked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
+//IMPORTANT: I have worked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
 
 // Log:
 
@@ -62,3 +62,9 @@ Created the SeedData.cs Class and Pupulated it with elements for every field in 
 
 3:44
 Running the program to see if the table was populated...
+
+3:46
+Program is working properly and the table has been populated. Proceeding to the next step...
+
+4:02
+Added new code that will specify the format of the decimal Price field in Balloon.cs...
