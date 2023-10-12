@@ -4,10 +4,14 @@
 // Date Created: 2023-10-10 1230 
 // Date Finished: 2023-10-
 
+//          IMPORTANT           //
 
-//IMPORTANT: I have worked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
+//I have worked in this project since 2023-10-10 but I had issues that made me restart my project, in Github it will just show my last attempt but this began before.
 
-// Log:
+//Commented the "sslPort": 44320 located in Properties/launchSettings.json to be able to run the program and see it
+
+
+//            LOG              //
 
 1:18 
 Created the MvcBallon project and created a README.txt file...
@@ -68,3 +72,9 @@ Program is working properly and the table has been populated. Proceeding to the 
 
 4:02
 Added new code that will specify the format of the decimal Price field in Balloon.cs...
+
+4:06
+After finishing the previos step I checked the code and everything is working properly and ready to move to the next step...
+
+4:12
+Modifying the Index method in BalloonsController.cs to turn it into a search bar... 
