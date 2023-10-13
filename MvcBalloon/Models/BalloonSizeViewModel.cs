@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MvcBalloon.Models
 {
+    // Creation of a BalloonSizeViewModel.cs class
     public class BalloonSizeViewModel
     {
         public List<Balloon> Balloons { get; set; }

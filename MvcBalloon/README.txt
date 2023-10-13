@@ -2,7 +2,7 @@
 // Project: MvcBalloon - Assignment 1 
 // Project Purpose: Generate a product catalogue allowing for CRUD operations 
 // Date Created: 2023-10-10 1230 
-// Date Finished: 2023-10-
+// Date Finished: 2023-10-13 
 
 //          IMPORTANT           //
 
@@ -125,3 +125,15 @@ With everything finished and working, I made some styling to the website and cre
 
 7:53
 With this work in progress, I have decided to give the last final touches and continue with a few more details tomorrow...
+
+
+- 2023-10-12
+
+1:13
+Finished with all the styling of the website and modified the content of the privacy page into an About us Page...
+
+1:14
+With all the steps finished and working, I will proceed to uncomment the sslport mentioned before so it's content is visible in other computers and make comments on the code based on my previous steps...
+
+1:15
+Creating a README.md file in github describing the program and switching the repository to public to be accessible... 

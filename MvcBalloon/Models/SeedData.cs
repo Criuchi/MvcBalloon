@@ -22,6 +22,7 @@ namespace MvcBalloon.Models
                     return;   // DB has been seeded
                 }
 
+                //Populating the database
                 context.Balloon.AddRange(
                     new Balloon
                     {

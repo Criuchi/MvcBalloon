@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Balloon Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <style>
         body {
             background-color: rgb(255 232 210);
         }
-
         
+        ul li:hover{
+            text-decoration:underline;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h2 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h3 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+        table {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+        }
+
+        table a{
+            color: black;
+        }
+
+        .row {
+            font-family: 'Montserrat', sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -30,10 +61,7 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="About Us">About Us</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +76,7 @@
 
     <footer class="border-top footer bg-dark text-white">
         <div class="container">
-            &copy; 2023 - MvcBalloon - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - Rebirth - <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
